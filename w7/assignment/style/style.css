@@ -8,18 +8,20 @@ body {
 }
 
 .container {
-  max-width: 100rem;
+  max-width: auto;
   margin-inline: auto;
   background-color: #fff;
+  
 }
 
 .nevigation {
   background-color: black;
   color: #fff;
-  padding-inline: 2.5rem;
+  font-size: x-large;
+  padding-inline: 3.75rem;
   display: flex;
   justify-content: space-between;
-  padding-block: 17px;
+  padding-block: 20px;
 }
 
 .nevigation > .navigation__menu-group {
@@ -27,7 +29,7 @@ body {
   margin-block: 0;
   list-style: none;
   display: flex;
-  gap: 0.625rem;
+  gap: .3125rem;
   align-items: center;
 }
 .navigation__menu-group.avigation__menu-group-right {
@@ -49,7 +51,7 @@ body {
 
 .navigation__submit {
   background-color: rgb(29, 29, 29);
-  padding: 0.25rem;
+  padding: .625rem;
   border-radius: 0.625rem;
   border-style: solid;
   border-color: #fff;
@@ -58,7 +60,7 @@ body {
 
 .navigation__sign {
   background-color: #4c5fd5;
-  padding: 0.25rem;
+  padding: .625rem;
   border-radius: 0.625rem;
   border-style: solid;
   border-color: #4c5fd5;
@@ -67,15 +69,17 @@ body {
 
 .main {
   background-color: #dadbf1;
-  padding-block: 70px;
+  padding-block: 100px;
   text-align: center;
-  font-size: 3.125rem;
+  font-size: 70px;
+  font-weight: 500;
 }
 
 .search-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .Search {
@@ -129,24 +133,28 @@ body {
 .footer {
   background-color: black;
   color: #fff;
-  display: flex;
-  justify-content: space-evenly;
   padding-block-start: 20px;
   padding-block-end: 100px;
+  
 }
 
 .final {
   list-style: none;
   display: flex;
   gap: 0.625rem;
-  align-items: center;
+  justify-content: space-evenly;
+  b
 }
 
 .line {
-  margin-left: 33px;
-  margin-right: 33px;
+  
+  margin: auto;
 }
 
 .sub {
   font-weight: bold;
+}
+
+.star {
+  
 }
