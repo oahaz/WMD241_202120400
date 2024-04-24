@@ -144,7 +144,6 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: flex-start;
 }
 
 .sub {
@@ -154,6 +153,11 @@ body {
 .footer > .final {
   list-style: none;
   display: flex;
-  align-items: flex-start;
+
   gap: 0.625rem;
+}
+
+.line__down {
+  align-content: flex-end;
+  font-weight: lighter;
 }
