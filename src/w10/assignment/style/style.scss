@@ -199,6 +199,7 @@ body {
   grid-template-columns: 12.5rem repeat(auto-fit, minmax(240px, 1fr));
   padding: 0.75rem;
   margin-inline: auto;
+  padding-top: 80px;
 }
 
 .footer__icon {
@@ -217,4 +218,16 @@ body {
   width: 32px;
   height: 32px;
   object-fit: cover;
+}
+
+.footer__card__title {
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+}
+
+.footer__card__1 {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
