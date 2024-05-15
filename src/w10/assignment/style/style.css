@@ -50,6 +50,10 @@ body {
   height: 2rem;
 }
 
+.container__blank {
+  padding-top: 2px;
+}
+
 .container__box {
   color: #ffffff;
   background-color: #381fd1;
