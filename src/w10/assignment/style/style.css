@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
 }
@@ -10,7 +11,11 @@ body {
 }
 
 .navigation {
-  font-size: 14px;
+  font-family: "Familjen Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
   background-color: #f6f6eb;
   color: #381fd1;
   padding-inline: 1.875rem;
@@ -18,10 +23,37 @@ body {
 }
 
 .navigation__container {
-  width: 90%;
+  width: 1000px;
   margin-inline: auto;
   display: flex;
   justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.navigation__menu-group {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__menu-group--left {
+  gap: 30px;
+}
+
+.navigation__menu-group--right {
+  gap: 30px;
+}
+
+.navigation__logo {
+  height: 2rem;
+}
+
+.container__box {
+  color: #ffffff;
+  background-color: #381fd1;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
 }
 
 .sidebar {
@@ -33,13 +65,24 @@ body {
 
 .main__container {
   display: grid;
-  -moz-column-gap: 1.5rem;
-  column-gap: 1.5rem;
-  row-gap: 1.5rem;
-  grid-template-columns: 12.5rem repeat(auto-fit, minmax(240px, 1fr));
+  -moz-column-gap: 2.5rem; /* 간격 늘림 (2.5rem) */
+  column-gap: 2.5rem; /* 간격 늘림 (2.5rem) */
+  row-gap: 2.5rem; /* 간격 늘림 (2.5rem) */
+  grid-template-columns: 12.5rem repeat(auto-fit, minmax(270px, 1fr));
   max-width: 80rem;
   padding: 0.75rem;
   margin-inline: auto;
+  margin: 64px;
+}
+
+.big {
+  font-size: 64px;
+  margin-bottom: 30px;
+  color: #11284b;
+  font-family: "Familjen Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .sidebar {
@@ -65,4 +108,11 @@ body {
 .footer__container {
   background-color: #11284b;
   color: #ffffff;
+  display: grid;
+  -moz-column-gap: 1.5rem;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+  grid-template-columns: 12.5rem repeat(auto-fit, minmax(240px, 1fr));
+  padding: 0.75rem;
+  margin-inline: auto;
 }
