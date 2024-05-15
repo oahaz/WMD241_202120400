@@ -115,6 +115,7 @@ body {
   background-color: rgb(243, 242, 252);
   padding: 24px;
   border-radius: 8px;
+  margin-top: 20px;
 }
 
 .sidebar input[type=search] {
