@@ -4,12 +4,13 @@
   font-weight: 400;
   line-height: 150%;
   background-color: oklch(1 0 0);
-  border: 1px solid oklch(0.5 0 0);
+  border: 1px solid #e4e4e4;
   border-radius: 0.75rem;
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 24px;
-  padding-bottom: 40px;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .card__author {

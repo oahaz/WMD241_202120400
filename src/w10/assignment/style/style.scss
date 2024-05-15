@@ -84,6 +84,7 @@ body {
   margin: 0 auto; /* Added margin: 0 auto to center horizontally */
   gap: 2.5rem;
   margin-top: 64px;
+  margin-bottom: 64px;
 }
 
 .big {
@@ -147,4 +148,22 @@ body {
   grid-template-columns: 12.5rem repeat(auto-fit, minmax(240px, 1fr));
   padding: 0.75rem;
   margin-inline: auto;
+}
+
+.footer__icon {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #ffc800;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #11284b;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.icon__1 {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
 }
