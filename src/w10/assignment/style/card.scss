@@ -6,4 +6,24 @@
   background-color: oklch(1 0 0);
   border: 1px solid oklch(0.5 0 0);
   border-radius: 0.75rem;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+.card__author {
+  margin: 0;
+}
+
+.card__author-role {
+  color: rgb(56, 31, 209);
+  font-size: 16px;
+  padding: 0 auto;
+  margin: 0;
+  font-weight: 700;
+}
+
+.h4 {
+  color: #11284b;
 }

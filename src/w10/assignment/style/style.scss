@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
 }
@@ -10,7 +11,6 @@ body {
 }
 
 .navigation {
-  // <uniquifier>: Use a unique and descriptive class name
   font-family: "Familjen Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -37,9 +37,11 @@ body {
   display: flex;
   align-items: center;
 }
+
 .navigation__menu-group--left {
   gap: 30px;
 }
+
 .navigation__menu-group--right {
   gap: 30px;
 }
@@ -92,6 +94,14 @@ body {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  display: flex;
+  justify-content: space-between;
+}
+
+.big__b {
+  font-size: 16px;
+  color: #381fd1;
+  text-decoration: underline;
 }
 
 .sidebar {
@@ -110,6 +120,15 @@ body {
   grid-template-columns: subgrid;
   grid-auto-rows: subgrid;
 }
+
+.middle {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-size: 20px;
+  color: #11284b;
+}
+
 .title {
   grid-column: 1/-1;
 }
@@ -117,6 +136,7 @@ body {
 .footer {
   background-color: #11284b;
 }
+
 .footer__container {
   max-width: 1200px;
   color: #ffffff;
