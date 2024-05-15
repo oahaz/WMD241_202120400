@@ -19,12 +19,13 @@ body {
   background-color: #f6f6eb;
   color: #381fd1;
   padding-inline: 1.875rem;
-  padding-block: 1.1875rem;
+  padding-block: 17px;
 }
 
 .navigation__container {
   max-width: 960px;
   width: 1200px;
+  margin: 0;
   margin-inline: auto;
   display: flex;
   justify-content: space-between;
@@ -141,7 +142,8 @@ body {
 }
 
 .big {
-  font-size: 64px;
+  font-size: 48px;
+  font-weight: 900;
   margin-bottom: 30px;
   color: #11284b;
   font-family: "Familjen Grotesk", sans-serif;
@@ -207,13 +209,16 @@ body {
 .footer__icon {
   max-width: 1200px;
   margin: 0 auto;
-  color: #ffc800;
+  color: #ffee00;
   font-size: 16px;
   display: flex;
   justify-content: space-between;
   background-color: #11284b;
   padding-top: 80px;
   padding-bottom: 80px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  word-spacing: 3px;
 }
 
 .icon__1 {
